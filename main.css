@@ -602,19 +602,21 @@ h5{
     .bdiv{
         margin: 0 auto;
         width: 55%;
-         border:2px solid rgb(148, 45, 45); 
+         /* border:2px solid rgb(148, 45, 45);  */
         height: 2000px;
     }
     
     
     body{
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,42,157,1) 35%, rgba(0,212,255,1) 100%);
+        background-image: url("img/solid-black-wallpaper-1920x1080-5af687835a9d5.jpg");
+        background-attachment: fixed;
+        /* background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,42,157,1) 35%, rgba(0,212,255,1) 100%); */
      }
 
      .bannerimg{
         /* Rectangle 1 */ 
-    background-image: url("img/Store_Banner.jpg");
+    background-image: url("https://i.pinimg.com/originals/73/b5/c8/73b5c803f71615276f739c722c4630f8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -725,6 +727,7 @@ h3{
     right: 160px;
     color: rgb(241, 16, 16);
     top:25px;
+
     font-size: 2.1em;
 }
 
@@ -742,11 +745,14 @@ h3{
 }
 h4{
     position: relative;
-    top:80px;
-    font-size: 1.0rem;
-    width: 30%;
-    color:rgb(0, 0, 0);
-    left: 20px;
+    top:50px;
+    width: 15px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5rem;
+    width: 15%;
+    color:rgb(180, 25, 25);
+    left: 15px;
 }
 
 .banneradd{
@@ -761,7 +767,14 @@ h4{
     box-shadow: 0px 32px 32px rgba(0, 0, 0, 0.25);
     
 }
+.meet{
+    position: relative;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3rem;
+    left: 20px;
+    color: #FFFFFF;
 
+}
 .bannerimg5{
     background-color: rgba(0, 0, 0, 0.493);
     position: relative;
